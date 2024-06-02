@@ -260,6 +260,7 @@ public:
             }
 
             else {
+                // BACKTRACK
                 /* This is done when the vertex at top of stack doesn't have any adjascent unprocessed vertexes */
                 gvertex *poppingVertex = DFTstack.pop();
                 poppingVertex->inStack = false;
